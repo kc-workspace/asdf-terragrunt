@@ -1,0 +1,32 @@
+---
+## Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v1.3.3-25-g9a4a8f6
+_src_path: .
+app_description: a thin wrapper for Terraform that provides extra tools for working
+    with multiple Terraform modules.
+app_name: terragrunt
+app_repo: https://github.com/gruntwork-io/terragrunt
+app_version_prefix: v
+app_website: https://terragrunt.gruntwork.io/
+custom_arch_enabled: true
+custom_arch_yaml:
+    aarch64*: arm64
+    armv5*: arm
+    armv6*: arm
+    armv7*: arm
+    i386: 386
+    i686: 386
+    x86: 386
+    x86_64: amd64
+custom_non_stable_version: (-src|-dev|-latest|-stm|[-\.]rc|-alpha|-beta|[-\.]pre|-next|snapshot|master)
+custom_os_enabled: false
+download_checksum_cmd: '256'
+download_checksum_enabled: true
+download_checksum_link: https://github.com/gruntwork-io/terragrunt/releases/download/v{version}/SHA256SUMS
+download_link: https://github.com/gruntwork-io/terragrunt/releases/download/v{version}/terragrunt_{os}_{arch}
+download_type: single-file
+plugin_author: Kamontat Chantrachirathumrong
+plugin_name: asdf-terragrunt
+plugin_org: kc-workspace
+plugin_repo: https://github.com/kc-workspace/asdf-terragrunt
+test_cmd_args: ''

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/kc-workspace/asdf-terragrunt/compare/v1.0.0...v1.0.1) (2023-12-03)
+
+
+### Improvements
+
+* update plugin from template [autocommit] ([5aae571](https://github.com/kc-workspace/asdf-terragrunt/commit/5aae5714c611d3bafcfea2cba9bd544f529c616a))
+
 ## 1.0.0 (2023-11-06)
 
 
